@@ -1,6 +1,6 @@
 
 def solution():
-    f = open("/home/igor/COMP/adventure-code/puzzle2/input.txt", "r")
+    f = open("/home/igor/COMP/advent-of-code/puzzle2/input.txt", "r")
     f = f.readlines()
     f = [int(x[:-1]) for x in f]
     gratest = 0
