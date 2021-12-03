@@ -1,14 +1,15 @@
 def comonbit(f,lista,bit):
+    lista = [0,0]
     lista0 = []
     lista1 = []
     for item in f:
         if(item[bit]=='1'):
             lista1.append(item)
-            lista[bit][1] +=1 
+            lista[1] +=1 
         else:
             lista0.append(item)
-            lista[bit][0] +=1
-    if(lista[bit][1]>=lista[bit][0]):
+            lista[0] +=1
+    if(lista[1]>=lista[0]):
 
         return lista1
     else:
