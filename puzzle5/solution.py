@@ -1,13 +1,3 @@
-def forward(levels,move):
-    levels = [levels[0]+move,levels[1]+(levels[2]*move),levels[2]]
-    return levels
-def up(levels,move):
-    levels = [levels[0],levels[1], levels[2]-move]
-    return levels
-def down(levels,move):
-    levels = [levels[0],levels[1], levels[2]+move]
-    return levels
-
 def solution():
     f = open("/home/igor/COMP/advent-of-code/puzzle5/input.txt", "r")
     f = f.readlines()
