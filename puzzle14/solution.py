@@ -7,7 +7,7 @@ def solution():
     menor = min(f)
     cost = float('inf')
     horizontal = 0
-    for i in range(menor-100,maior+1):
+    for i in range(menor,maior+1):
         custoatual = 0
         for j in range(len(f)): 
             delta = ((abs(f[j]-i)+1)*abs((f[j]-i)))/2
